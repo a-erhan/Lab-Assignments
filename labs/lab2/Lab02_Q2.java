@@ -12,8 +12,21 @@ public class Lab02_Q2 {
         final double GRAV100 = 9.5059;
         final double GRAV1000 = 7.32628;
 
+        double gravOneStandart = GRAVSTANDART * mass_1;
+        double gravOne10 = GRAV10 * mass_1;
+        double gravOne100 = GRAV100 * mass_1;
+        double gravOne1000 = GRAV1000 * mass_1;
+        double gravTwoStandart = GRAVSTANDART * mass_2;
+        double gravTwo10 = GRA10 * mass_2;
+        double gravTwo100 = GRAV100 * mass_2;
+        double gravTwo1000 = GRAV1000 * mass_2;
+        
+        
+
 
         System.out.printf("%41dkm\t%dkm\t%dkm\t%dkm %n",0,10,100,1000);
+        System.out.printf("OBJECT ONE(%f)\t%f\t%f\t%f\t%f",gravOneStandart,gravOne10,gravOne100,gravOne1000);
+        System.out.printf("OBJECT ONE(%f)\t%f\t%f\t%f\t%f",gravTwoStandart,gravTwo10,gravTwo100,gravTwo1000);
 
 
 
